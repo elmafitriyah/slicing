@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+
+nav{
+    background-color: #FFF3E4;
+}
+
+nav .container{
+    padding: 25px 10px 0 10px;
+    display: flex; 
+    background-color: #FFF3E4;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 100px;
+    height: 53px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav .login{
+    border: none;
+    border-radius: 80px;
+    background-color: white;
+    color: #6C6C6C;
+    width: 90px;
+    height: 35px;
+}
+
+nav .signup{
+    border: none;
+    border-radius: 80px;
+    background-color: #F48C06;
+    color: white;
+    height: 35px;
+    width: 90px;
+}
+
+.hero{
+    background-color: #FFF3E4;
+}
+
+.hero h2{
+    display: inline;
+    color: #2F327D;
+    font-weight: bold;
+    font-size: 40px;
+    width: 0%;
+}
+
+.hero .span{
+    color: #F48C06;
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.hero h6{
+    font-weight: 400;
+    padding: 3% 0 3% 0;
+    font-size: 18px;
+    width: 100%;
+    color: #464646;
+    font-family: 'nunito sans'
+}
+
+.hero .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.row-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.row-btn button{
+    background-color: #f48c06;
+    color: white;
+    border-radius: 80px;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-family: poppins;
+    font-weight: 500;
+    text-align: center;
+    font-size:14px;
+}
+
+.hero .row-btn img{
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}   
+
+.watch{
+    display: flex;
+    align-items: center;
+}
+
+.watch img{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7.2%;
+}
+
+.watch h5{
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: poppins;
+}
+
+.hero-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    margin-top: -6%;
+}
+
+.hero-img img{
+    max-width: 90%;
+    height: auto;
+}
+
+.column{
+    flex: 1;
+}
+
+.wave {
+    position: relative;
+    margin-top: -5px; /* bisa atur jadi -20px kalau wave mau lebih nempel ke bawah */
+    z-index: 2;
+  }
+
+.row-btn h6{
+    margin: 0;
+    font-size: 14px;
+}
+
+.company{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: white; /* samakan dengan fill SVG */
+    padding-top: 0;
+    margin-top: -10px; 
+    
+}
+
+.company h6{
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 400;
+    color: #696984;
+}
+
+.company ul{
+    list-style-type: none;
+}
+
+.company ul li{
+    display: inline-block;
+}
+
+.company-list img{
+    width: 90px;
+    length: auto;
+    margin: 50px 24px;
+    justify-content: space-between;
+}
+
+.card{
+    text-align  : center;
+}
+
+.card span{
+    color: #2F327D;
+}
+
+.card h1{
+    color: #F48C06;
+}
+
+.card h6{
+    color: #696984;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.image-card{
+    display: flex;
+    justify-content: center;  
+    align-items: flex-start;
+    gap: 110px;                
+    flex-wrap: wrap;         
+    margin-top: 30px;
+}
+
+.card-img{
+    width: 22%;
+    transform: transalate(-50%, -50%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    padding: 2%;
+    height: 150%;
+}
+
+.card-img h4{
+    color: #2F327D;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}
+
+.card-img img{
+    width: 100px;
+    padding: 1%;
+}
+
+.card-img h6{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.definition{
+    margin-top: 4%;
+}
+
+.text-wrap{
+    font-family: poppins;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-wrap span{
+    color: #2F327D;
+}
+
+.text-wrap h1{
+    color: #F48C06;
+}
+
+.text-wrap h6{
+    font-weight: 400;
+    font-size: 14px;
+    color: 
+}
